@@ -16,7 +16,8 @@ plot( powerList$Global_active_power,
      type="l",
      lwd=1,
      xaxt = "n", ##control if the axis is plotted at all.
-     ylab="Global Active Power(kilowatts)")
+     ylab="Global Active Power(kilowatts)",
+     xlab="")
 axis(side = 1, at = c(0, 1500,2500), labels = c("Thu","Fri","Sat"))
 
 dev.off()
