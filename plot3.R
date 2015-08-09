@@ -27,7 +27,7 @@ lines( powerList$Sub_metering_3,
       lwd=1)
 
 nameList <- names(powerList)
-legend(x="topright", legend=nameList[7:9],col=c(1:3),lty = 1)
+legend(x="topright", legend=nameList[7:9],col=c("black", "red","blue"),lty = 1)
 
 axis(side = 1, at = c(0, 1500,2500), labels = c("Thu","Fri","Sat"))
 dev.off()
